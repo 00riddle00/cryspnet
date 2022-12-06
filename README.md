@@ -113,6 +113,8 @@ The package is a wrapper of fastai learner, and is easy to use. The following ex
 ```python
     import pandas as pd
     from cryspnet.models import *
+    # for feature generation and plotting
+    from cryspnet.utils import *
 
     formula = pd.read_csv("demo/demo.csv")
     BE = load_Bravais_models()
@@ -123,7 +125,7 @@ The package is a wrapper of fastai learner, and is easy to use. The following ex
     predictors = featurizer.generate(formula)
 
     bravais_probs, bravais = BE.predicts(predictors, topn_bravais=1)
-    predictors['bravais'] = bravais
+    predictors['Bravais'] = bravais
 
     spacegroup_probs, spacegroup = SGB.predicts(predictors, topn_spacegroup=1)
     latticeparameter = LPB.predicts(predictors)
