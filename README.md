@@ -1,6 +1,8 @@
 # CRYSPNet
 
-The Crystal Structure Prediction Network ([CRYSPNet](hhttps://journals.aps.org/prmaterials/abstract/10.1103/PhysRevMaterials.4.123802)) project introduces an alternative way to perform fast prediction on Crystal Structure Information (Bravais Lattice, Space Group, and Lattice Parameter) with the power of neural networks. 
+The Crystal Structure Prediction Network ([CRYSPNet](hhttps://journals.aps.org/prmaterials/abstract/10.1103/PhysRevMaterials.4.123802)) project introduces an alternative way to perform fast prediction on Crystal Structure Information (Bravais Lattice, Space Group, and Lattice Parameter) with the power of neural networks.
+
+Tested with Python **3.11** version.
 
 ## Installation
 
